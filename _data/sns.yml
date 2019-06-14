@@ -1,32 +1,32 @@
 - name: bilibili
-  url: https://space.bilibili.com/178337929/#!/
+  url:
 
 - name: facebook
-  url: 
+  url: https://www.facebook.com/courtney.raychelle.1
 
 - name: github
-  url: https://github.com/wwg1996
+  url:
 
 - name: gplus
-  url: 
+  url:
 
 - name: instagram
-  url: 
+  url:
 
 - name: linkedin
-  url: 
+  url:
 
 - name: telegram
-  url: 
+  url:
 
 - name: tumblr
-  url: 
+  url:
 
 - name: twitter
-  url: 
+  url:
 
 - name: weibo
-  url: 
+  url:
 
 - name: zhihu
-  url: https://www.zhihu.com/people/wangc-1996/activities
+  url:
