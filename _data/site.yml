@@ -1,8 +1,8 @@
-head: 
-   favicon: "/images/facicon1.png" #  the favicon
-   high_res_favicon: "/images/favicon2.png" #  the favicon using high quality format
-   apple_touch_icon: "/images/favicon2.png" # the iOS Home button icon
-   keywords: "jekyll blog PKM AI" #  the site keywords
+head:
+   favicon: "/images/hanya1.png" #  the favicon
+   high_res_favicon: "/images/hanya2.png" #  the favicon using high quality format
+   apple_touch_icon: "/images/hanya3.png" # the iOS Home button icon
+   keywords: "china beauty dance" #  the site keywords
 
 uiux:
    android_chrome_color: "#eeeeee" #  the color of the Chrome address bar
@@ -10,38 +10,38 @@ uiux:
    nprogress_buffer: 200 # the top loading progress bar buffers
    meng: false # meng
 
-background: 
+background:
    purecolor: "#eeeeee" # the background color
 
-img: 
-   avatar: "/images/c.png" # your avatar
+img:
+   avatar: "/images/hanya3.png" # your avatar
 
-card: 
+card:
    card_shadow: 1 # card shadow (0-24), 0 is not displayed
    card_hoverable: false # When the hover to deepen the shadow
 
 many_authors: false
 
 sns_share: # SNS Share Switch
-   twitter: false
-   facebook: false
-   googleplus: false
-   weibo: true
-   linkedin: false
-   qq: true
-   telegram: false
-  
+   twitter: true
+   facebook: true
+   googleplus: true
+   weibo: false
+   linkedin: true
+   qq: false
+   telegram: true
+
 comment:
-  used: "livere" # disqus,livere,gitment,valine
+  used: "" # disqus,livere,gitment,valine
   # disqus config
-  disqus_shortname: "wangc" # Your disqus 
+  disqus_shortname: "" # Your disqus
   disqus_button: true # disqus load button
   disqus_proxy: false # # disqus proxy(Do not use)
   disqus_proxy_url: "" # (Do not use)
   disqus_api_key: "" # (Do not use)
   # livere config
-  livere_type: 'city'
-  livere_data_uid: 'MTAyMC8zMTI1OS83ODA4'
+  livere_type: ''
+  livere_data_uid: ''
   # gitment config
   owner: ""
   repo: ""
@@ -56,24 +56,24 @@ comment:
 
 prism:
   themes: prism-okaidia
-  components: 
-    - c 
+  components:
+    - c
     - c++
     - php
     - sql
     - python
-  plugins: 
+  plugins:
 
 mathjax: true
 
-google_analytics: "UA-107846901-1"  # google analytics code
+google_analytics: ""  # google analytics code
 
-baidu_site_verification: "cUWDgJtPLR"  # baidu site verification code
-google_site_verification: "google7c87d37893759bbc.html"  # google search console verification code
+baidu_site_verification: ""  # baidu site verification code
+google_site_verification: ""  # google search console verification code
 
-baidu_auto_push: true  # if you used baidu auto push to commit links
+baidu_auto_push: false  # if you used baidu auto push to commit links
 
-lang: "zh-CN"  # lang
+lang: ""  # lang
 
 deploy: "" # if you used coding pages
 
