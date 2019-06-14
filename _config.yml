@@ -1,9 +1,9 @@
-title: "小c的第一宇宙"
-description: "用知识建立信息世界的根据地"
-url: 
-baseurl: ""
-author: "wangc"
-paginate: 5
+title: "HanyaFans"
+description: "Appreciating the Beauty of Chinese Girls"
+url:
+baseurl: "/blog"
+author: "Hanya"
+paginate: 7
 paginate_path: "/blog/page:num/"
 
 plugins:
