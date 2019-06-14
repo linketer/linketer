@@ -1,7 +1,7 @@
 title: "HanyaFans"
 description: "Appreciating the Beauty of Chinese Girls"
 url:
-baseurl: "/blog"
+baseurl: ""
 author: "Hanya"
 paginate: 7
 paginate_path: "/blog/page:num/"
