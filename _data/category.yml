@@ -1,4 +1,4 @@
-- name: Beauty Pictures
-  img: /images/Beauty Pictures.jpg
-- name: Beauty Videos
-  img: /images/Beauty Videos.jpg
+- name: BeautyPictures
+  img: /images/BeautyPictures.jpg
+- name: BeautyVideos
+  img: /images/BeautyVideos.jpg
