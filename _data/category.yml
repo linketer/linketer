@@ -1,10 +1,4 @@
-- name: CS
-  img: /images/cs.jpg
-- name: AI
-  img: /images/ai.jpg
-- name: math
-  img: /images/math.jpg
-- name: collection
-  img: /images/collection.jpg
-- name: origin
-  img: /images/origin.jpg
+- name: Beauty Pictures
+  img: /images/Beauty Pictures.jpg
+- name: Beauty Videos
+  img: /images/Beauty Videos.jpg

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 初中画集 
+title: 初中画集
 date: 2011-01-01 14:02:56 +0800
-categories: origin
-tags: 画画 
-img: 
+categories: Beauty Videos
+tags: 画画
+img:
 ---
 
 ![image](http://wangweiguang.xyz/images/高中画集/(1).jpg)
@@ -42,4 +42,3 @@ img:
 ![image](http://wangweiguang.xyz/images/高中画集/(17).jpg)
 
 ![image](http://wangweiguang.xyz/images/高中画集/(18).jpg)
-
