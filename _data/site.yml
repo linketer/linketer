@@ -1,6 +1,6 @@
 head:
    favicon: "/images/hanya1.png" #  the favicon
-   high_res_favicon: "/images/hanya2.png" #  the favicon using high quality format
+   high_res_favicon: "/images/hanya3.png" #  the favicon using high quality format
    apple_touch_icon: "/images/hanya3.png" # the iOS Home button icon
    keywords: "china beauty dance" #  the site keywords
 
@@ -57,11 +57,7 @@ comment:
 prism:
   themes: prism-okaidia
   components:
-    - c
-    - c++
-    - php
-    - sql
-    - python
+    - bash
   plugins:
 
 mathjax: true
