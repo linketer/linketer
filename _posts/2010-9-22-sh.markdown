@@ -6,7 +6,7 @@ categories: BeautyPictures
 tags: 画画
 img: http://wangweiguang.xyz/images/手绘/IMG_009.jpg
 ---
-
+<iframe data-aa="1189499" src="//ad.a-ads.com/1189499?size=120x60" scrolling="no" style="width:120px; height:60px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
 ![image](http://wangweiguang.xyz/images/手绘/IMG_001.jpg)
 
 ![image](http://wangweiguang.xyz/images/手绘/IMG_002.jpg)
