@@ -12,7 +12,55 @@ img: https://i1.hdslb.com/bfs/archive/4e570f226bfe224cfc63c812cd672afe1107d793.j
 <iframe src="//player.bilibili.com/player.html?aid=8120511&cid=13352637&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 ---
 <iframe data-aa="1189499" src="//ad.a-ads.com/1189499?size=120x60" scrolling="no" style="width:120px; height:60px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
-
-<script type='text/javascript' src='//p354631.clksite.com/adServe/banners?tid=354631_693981_3&type=floating_banner&size=6&side=right&position=bottom'></script>
 ---
-<script data-cfasync='false' type='text/javascript' src='//p354631.clksite.com/adServe/banners?tid=354631_693981_2&type=footer&size=22'></script>
+### Up next
+// 获取文章数据
+var postData;
+var xhrPosts = new XMLHttpRequest();
+xhrPosts.open('GET', '/posts.json', true);
+xhrPosts.onreadystatechange = function() {
+    if (xhrPosts.readyState == 4 && xhrPosts.status == 200) {
+        postData = JSON.parse(xhrPosts.responseText);
+        randomPosts(relatedPosts(page.tags, page.category));
+    }
+}
+xhrPosts.send(null);
+
+// 获取相关文章
+function relatedPosts(tags, cat){
+    var posts = [];
+    var used = [];
+    // 获取相关 Tags 的文章
+    postData.forEach(function(item, i){
+        if( item.tags.some(function(tag) {return tags.indexOf(tag) > -1;}) && item.url != location.pathname ){
+            posts.push(item);
+            used.push(i);
+        }
+    })
+    // 文章数不足，则随机添加同 Category 文章
+    while (posts.length < 5) {
+        var index = Math.floor(Math.random() * postData.length);
+        var item = postData[index];
+        if( used.indexOf(index) == '-1' && item.category == cat && item.url != location.pathname ){
+            posts.push(item);
+            used.push(index);
+        }
+    }
+    return posts;
+}
+
+// 随机（即乱序）取 5 篇文章，并显示在页面
+function randomPosts(posts){
+    var used = [];
+    var counter = 0;
+    var html = '';
+    while (counter < 5 ) {
+        var index = Math.floor(Math.random() * posts.length);
+        if (used.indexOf(index) == '-1') {
+            html += '<li class="post-extend-item"><a class="post-extend-link" href="' + posts[index].url + '" title="' + posts[index].title + '">' + posts[index].title + '</a></li>\n';
+            used.push(index);
+            counter++;
+        }
+    }
+    document.querySelector('#random-posts ul').insertAdjacentHTML('beforeend', html);
+}
