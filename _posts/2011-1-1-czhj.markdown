@@ -14,7 +14,7 @@ img: https://i1.hdslb.com/bfs/archive/4e570f226bfe224cfc63c812cd672afe1107d793.j
 <iframe data-aa="1189499" src="//ad.a-ads.com/1189499?size=120x60" scrolling="no" style="width:120px; height:60px; border:0px; padding:0; overflow:hidden" allowtransparency="true"></iframe>
 ---
 ### Up next
-// 获取文章数据
+
 var postData;
 var xhrPosts = new XMLHttpRequest();
 xhrPosts.open('GET', '/posts.json', true);
@@ -26,7 +26,7 @@ xhrPosts.onreadystatechange = function() {
 }
 xhrPosts.send(null);
 
-// 获取相关文章
+
 function relatedPosts(tags, cat){
     var posts = [];
     var used = [];
@@ -37,7 +37,7 @@ function relatedPosts(tags, cat){
             used.push(i);
         }
     })
-    // 文章数不足，则随机添加同 Category 文章
+
     while (posts.length < 5) {
         var index = Math.floor(Math.random() * postData.length);
         var item = postData[index];
@@ -49,7 +49,7 @@ function relatedPosts(tags, cat){
     return posts;
 }
 
-// 随机（即乱序）取 5 篇文章，并显示在页面
+
 function randomPosts(posts){
     var used = [];
     var counter = 0;
