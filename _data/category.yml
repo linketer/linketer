@@ -1,4 +1,12 @@
-- name: BeautyPictures
-  img: /images/BeautyPictures.jpg
-- name: BeautyVideos
-  img: /images/BeautyVideos.jpg
+- name: Home&Garden
+  img: https://libreshot.com/wp-content/uploads/2016/05/family-house-and-garden.jpg
+- name: Cellphones&Telecommunications
+  img: https://cdn.pixabay.com/photo/2017/11/29/03/34/phone-photo-2985169_960_720.jpg
+- name: Automobiles&Motorcycles
+  img: https://storage.needpix.com/rsynced_images/bmw-2486777_1280.jpg
+- name: Men'sClothing
+  img: https://cdn.pixabay.com/photo/2018/02/08/11/54/male-3139289_960_720.jpg
+- name: Sports&Entertainment
+  img: https://media.defense.gov/2016/Feb/10/2001503907/-1/-1/0/160206-F-DT859-017.jpg
+- name: HomeImprovement
+  img: https://cdn.pixabay.com/photo/2018/10/10/08/36/home-decoration-3736693_960_720.jpg
