@@ -10,8 +10,5 @@
 - name: FRIENDS
   url: /friends/
   icon: "&#xe8a3;"
-- name: HANYA
-  url: /editor/
-  icon: "&#xe7fd;"
 - name: navSearch
   switch: true
