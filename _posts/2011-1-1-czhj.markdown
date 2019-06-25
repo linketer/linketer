@@ -8,7 +8,7 @@ img: https://ae01.alicdn.com/kf/HTB18anyakxz61VjSZFrq6xeLFXaK/Quick-Chop-Salad-B
 ---
 
 ### Product Video
-<iframe src="https://www.youtube.com/embed/S4AmNps6tH4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/S4AmNps6tH4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 Price: US $6.83
 ### Buy Now
