@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Product No.8 | multi-function bags
+title: P8 | multi-function bags
 date: 2019-06-25 14:02:56 +0800
 categories: Sports&Entertainment
 tags: Fitness Body Building
