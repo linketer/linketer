@@ -9,6 +9,14 @@
     {% else %}
     <meta name="keywords" content="{{ site.data.site.head.keywords }}">
     {% endif %}
+    {% if site.data.site.google_site_verification != "" %}
+    <meta name="google-site-verification" content="{{ site.data.site.google_site_verification }}">
+    {% endif %}
+    {% if site.data.site.uiux.meng == true%}
+    {% if site.data.meng.animation.switch == true %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    {% endif %}
+    {% endif %}
     <link rel="shortcut icon" href="{{ site.data.site.head.favicon }}">
     <link rel="icon" sizes="192x192" href="{{ site.data.site.head.high_res_favicon }}">
     <link rel="apple-touch-icon" href="{{ site.data.site.head.apple_touch_icon }}">
@@ -33,7 +41,7 @@ var defaultTitle = document.title;
 var imgzoom = false;
 var tagid;
 jQuery(document).ready(function($) {
-
+  
 	var siteUrl = 'http://'+(document.location.hostname||document.location.host);
     var disqusstatus = {
         flag: false,
@@ -80,5 +88,4 @@ var all=MathJax.Hub.getAllJax(),i;for(i=0;i<all.length;i+=1){all[i].SourceElemen
 </script>
 <script src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML"></script>
 {% endif %}
-
 </head>
